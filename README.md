@@ -5,14 +5,14 @@ This project focuses on strengthening programming fundamentals using Object-Orie
 # Project Overview
 The application provides a menu-driven command-line interface that allows users to manage student records efficiently.Student data is stored in a binary file, ensuring that records remain available even after the program terminates.The project simulates a basic real-world data management workflow suitable for beginner-to-intermediate learners.
 
-# Features
-* Add new student records
-* View all stored student records
-* Search student records by Roll Number or Name
-* Modify existing student records
-* Delete student records
-* Persistent data storage using a binary file (students.dat)
-* Menu-driven CLI interface
+## Features
+- Add new student records with duplicate roll number validation
+- View all stored student records
+- Search student records by Roll Number
+- Modify existing student records
+- Delete student records
+- Persistent data storage using a binary file (students.dat)
+- Menu-driven CLI interface
 
 # Technologies and Concepts Used
 Language: C++
