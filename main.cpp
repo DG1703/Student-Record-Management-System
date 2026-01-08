@@ -27,7 +27,8 @@ void addStudent() {
         return;
     }
 
-    s.input();
+    s.setRollNo(roll);   //  roll set ONLY ONCE
+    s.input();           // input now excludes roll number
 
     ofstream outFile("students.dat", ios::binary | ios::app);
     outFile.write((char*)&s, sizeof(s));
