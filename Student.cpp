@@ -25,3 +25,8 @@ cout << "\nCourse: " << course << endl;
 int Student::getRollNo() {
 return rollNo;
 }
+
+void Student::setRollNo(int r) {
+    rollNo = r;
+}
+
