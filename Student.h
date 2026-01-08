@@ -11,6 +11,7 @@ public:
 void input();
 void display();
 int getRollNo();
+void setRollNo(int r);
 };
 
 #endif
